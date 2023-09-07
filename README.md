@@ -7,5 +7,4 @@ Here, I have created a project which calculates the mean of a given dataset inpu
 
 The contents of this project are: .devcontainer (with a devcontainer.json and a Dockerfile), Github Actions, .gitignore file, Makefile, requirements.txt, main.py, test_main.py, and iris.csv.
 
-Here is a badge for better understanding![GitHub release (latest by date)](https://img.shields.io/github/v/release/AaryaDesai1/aad64_Pandas-Script)
 
