@@ -9,7 +9,6 @@ format:
 	black *.py
 
 lint:
-	generated-members=pandas.*
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 
 run:
