@@ -10,6 +10,7 @@ format:
 
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+	generated-members=pandas.*
 
 run:
 	python main.py
