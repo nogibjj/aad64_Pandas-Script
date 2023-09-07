@@ -7,4 +7,4 @@ def avg(data):
     result = data.pd.mean()
     print(result)
 
-avg(df.iloc[:, 1])git 
+avg(df.iloc[:, 1]) 
