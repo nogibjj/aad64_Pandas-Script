@@ -4,7 +4,7 @@ df = pd.read_csv("iris.csv")
 
 def avg(data):
     """"This is a mean function."""
-    result = data.pd.mean()
+    result = data.mean()
     print(result)
 
 avg(df.iloc[:, 1]) 
