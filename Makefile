@@ -1,17 +1,19 @@
-install:
-	pip install --upgrade pip && \
-	pip install -r requirements.txt
+venv:
+	python3 -m venv venv
+
+install: venv
+	venv/bin/pip install --upgrade pip -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=main test_*.py
+	venv/bin/python -m pytest -vv --cov=main test_*.py
 
 format:
-	black *.py
+	venv/bin/black *.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+	venv/bin/pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 
 run:
 	python main.py
 
-all: install lint format test
+all: venv install lint format test
