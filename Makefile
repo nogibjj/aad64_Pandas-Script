@@ -2,7 +2,8 @@
 #	python3 -m venv venv
 
 install: 
-	pip install --upgrade pip -r requirements.txt
+	pip install --upgrade pip && \
+	pip install -r requirements.txt
 
 test:
 	python -m pytest -vv --cov=main test_*.py
