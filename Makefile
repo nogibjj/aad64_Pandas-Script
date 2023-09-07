@@ -1,7 +1,7 @@
 #venv:
 #	python3 -m venv venv
 
-install: venv
+install: 
 	pip install --upgrade pip -r requirements.txt
 
 test:
