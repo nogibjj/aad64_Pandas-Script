@@ -8,13 +8,13 @@ This assignment is designed to introduce us to pandas descriptive scripts. For t
 Here, I have created a project which calculates the mean of a given dataset input, and returns the result. I have also created a test file to ensure that the mean function is correctly functioning (using an assert function).
 
 The contents of this project are: 
-* .devcontainer (with a devcontainer.json and a Dockerfile), 
-* Github Actions, 
+* .devcontainer (with a [devcontainer.json](https://github.com/nogibjj/aad64_Pandas-Script/edit/main/.devcontainer/devcontainer.json) and a [Dockerfile](https://github.com/nogibjj/aad64_Pandas-Script/edit/main/.devcontainer/Dockerfile)), 
+* [Github Actions](https://github.com/nogibjj/aad64_Pandas-Script/edit/main/.github/workflows/actions.yml), 
 * .gitignore file, 
-* Makefile, 
-* requirements.txt, 
-* main.py, 
-* test_main.py, and 
+* [Makefile](https://github.com/nogibjj/aad64_Pandas-Script/edit/main/Makefile), 
+* [requirements.txt](https://github.com/nogibjj/aad64_Pandas-Script/edit/main/requirements.txt), 
+* [main.py](https://github.com/nogibjj/aad64_Pandas-Script/edit/main/main.py), 
+* [test_main.py](https://github.com/nogibjj/aad64_Pandas-Script/edit/main/test_main.py), and 
 * iris.csv.
 
 
