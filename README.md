@@ -1,6 +1,5 @@
 # aad64_Pandas-Script
-![GitHub release (latest by date)](https://img.shields.io/license/AaryaDesai1/aad64_Pandas-Script)
-
+![example workflow](https://github.com/nogibjj/aad64_Pandas-Script/actions/workflows/actions.yml/badge.svg)
 
 Week 2 Mini-Project
 
