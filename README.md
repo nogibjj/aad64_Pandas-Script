@@ -1,5 +1,5 @@
 # aad64_Pandas-Script
-![GitHub release (latest by date)](https://img.shields.io/AaryaDesai1/aad64_Pandas-Script)
+![GitHub release (latest by date)](https://img.shields.io/license/AaryaDesai1/aad64_Pandas-Script)
 
 
 Week 2 Mini-Project
