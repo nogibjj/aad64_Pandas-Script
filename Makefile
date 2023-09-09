@@ -18,4 +18,4 @@ lint:
 run:
 	python main.py
 
-all: venv install lint format test
+all: install lint format test
