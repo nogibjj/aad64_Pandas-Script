@@ -18,7 +18,7 @@ def standard_deviation(data):
     result = data.std()
     return result
 
-#print(average(df.iloc[:, 1]))
+print(average(df.iloc[:, 1]))
 #print(med(df.iloc[:, 1]))
 #print(standard_deviation(df.iloc[:, 1]))
 
@@ -47,17 +47,4 @@ def visualize_data(data,
     plt.title(title)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
-    plt.show()
-
-# Example Usage of Visualization function:
-#data = {'x': [1, 2, 3, 4, 5], 'y': [2, 3, 5, 7, 11]}
-#df1 = pd.DataFrame(data)
-
-#visualize_data(df1, 
-#               'x', 
-#               'y', 
-#               title='Line Plot Example', 
-#               xlabel='X-axis', 
-#               ylabel='Y-axis')
-#
-
+    plt.show(block = True)
