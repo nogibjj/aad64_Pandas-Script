@@ -22,7 +22,12 @@ def standard_deviation(data):
 #print(med(df.iloc[:, 1]))
 #print(standard_deviation(df.iloc[:, 1]))
 
-def visualize_data(data, x_column, y_column, plot_type='line', title=None, xlabel=None, ylabel=None):
+def visualize_data(data, 
+                   x_column, 
+                   y_column, 
+                   title=None, 
+                   xlabel=None, 
+                   ylabel=None):
     """
     Visualize data from a DataFrame using pandas' built-in plotting capabilities.
 
@@ -30,7 +35,6 @@ def visualize_data(data, x_column, y_column, plot_type='line', title=None, xlabe
         data (pd.DataFrame): The DataFrame containing the data.
         x_column (str): The column to be used for the x-axis.
         y_column (str): The column to be used for the y-axis.
-        plot_type (str, optional): Type of plot (e.g., 'line', 'scatter', 'bar'). Defaults to 'line'.
         title (str, optional): Title for the plot. Defaults to None.
         xlabel (str, optional): Label for the x-axis. Defaults to None.
         ylabel (str, optional): Label for the y-axis. Defaults to None.
@@ -49,6 +53,11 @@ def visualize_data(data, x_column, y_column, plot_type='line', title=None, xlabe
 #data = {'x': [1, 2, 3, 4, 5], 'y': [2, 3, 5, 7, 11]}
 #df1 = pd.DataFrame(data)
 
-#visualize_data(df1, 'x', 'y', plot_type='line', title='Line Plot Example', xlabel='X-axis', ylabel='Y-axis')
-
+#visualize_data(df1, 
+#               'x', 
+#               'y', 
+#               title='Line Plot Example', 
+#               xlabel='X-axis', 
+#               ylabel='Y-axis')
+#
 
