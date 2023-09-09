@@ -12,3 +12,5 @@ fastapi==0.85.0
 uvicorn==0.18.3
 #for script
 pandas==2.1.0
+#for data visualization
+matplotlib==3.7.2
