@@ -1,4 +1,4 @@
-from main import average, med, standard_deviation, visualize_data
+from main import average, med, standard_deviation
 import pandas as pd
 
 dataset = {"Values": [1, 3, 5, 7, 9]}
