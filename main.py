@@ -1,33 +1,34 @@
 """Importing module pandas for my function."""
 import pandas as pd
 import matplotlib.pyplot as plt
+
 df = pd.read_csv("iris.csv")
 
+
 def average(data):
-    """"This is a mean function."""
+    """ "This is a mean function."""
     result = data.mean()
     return result
 
+
 def med(data):
-    """"This is a median function."""
+    """ "This is a median function."""
     result = data.median()
     return result
 
+
 def standard_deviation(data):
-    """"This is a standard deviation function."""
+    """ "This is a standard deviation function."""
     result = data.std()
     return result
 
-print(average(df.iloc[:, 1]))
-#print(med(df.iloc[:, 1]))
-#print(standard_deviation(df.iloc[:, 1]))
 
-def visualize_data(data, 
-                   x_column, 
-                   y_column, 
-                   title=None, 
-                   xlabel=None, 
-                   ylabel=None):
+print(average(df.iloc[:, 1]))
+# print(med(df.iloc[:, 1]))
+# print(standard_deviation(df.iloc[:, 1]))
+
+
+def visualize_data(data, x_column, y_column, title=None, xlabel=None, ylabel=None):
     """
     Visualize data from a DataFrame using pandas' built-in plotting capabilities.
 
@@ -47,4 +48,4 @@ def visualize_data(data,
     plt.title(title)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
-    plt.show(block = True)
+    plt.show(block=True)
