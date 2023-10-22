@@ -23,9 +23,9 @@ def standard_deviation(data):
     return result
 
 
-print(average(df.iloc[:, 1]))
-# print(med(df.iloc[:, 1]))
-# print(standard_deviation(df.iloc[:, 1]))
+# print(f"Mean Sepal Length: {average(df.iloc[:, 0])}")
+# print(f"Median Sepal Length: {med(df.iloc[:, 0])}")
+# print(f"Standard Deviation Sepal Length: {standard_deviation(df.iloc[:, 0])}")
 
 
 def visualize_data(data, x_column, y_column, title=None, xlabel=None, ylabel=None):
